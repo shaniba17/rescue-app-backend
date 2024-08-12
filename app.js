@@ -3,7 +3,7 @@ const mongoose=require("mongoose")
 const cors=require("cors")
 const bcrypt=require("bcrypt")
 const jwt=require("jsonwebtoken")
-
+const loginModel=require("./models/admin")
 const app=express()
 app.use(cors())
 app.use(express.json())
