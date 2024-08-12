@@ -70,9 +70,6 @@ app.post("/addPeople",(req,res)=>{
         }
     })
 })
-
-
-
 app.listen(3030,()=>{
         console.log("server started")
     })
